@@ -311,7 +311,7 @@ color: var(--black-color);
     .container {
         width: 90%;
     }
-}
+}    
 @media screen and (max-width: 480px) {
     .hero-section h1 {
         font-size: 24px;
@@ -321,13 +321,32 @@ color: var(--black-color);
         font-size: 16px;
         line-height: 22px;
     }
+    .sun-image-withText-section .text-content h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
     .sun-image-withText-section .flex {
         gap: 30px;
+    }
+    .wait-list-section {
+        padding: 30px 0px;
+    }
+    .wait-list-section h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .wait-list-section h2 {
+        font-size: 30px;
+        line-height: 40px;
     }
     .wait-list-section h4 {
         font-size: 30px;
         line-height: 32px;
         margin-bottom: 16px;
     }
-    
+
+    .wait-list-section p {
+        font-size: 12px;
+        line-height: 20px;
+    }
 }
