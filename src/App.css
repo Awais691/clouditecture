@@ -196,6 +196,198 @@ text-align: center;
 color: var(--black-color);
 }
 
+.founder-section .grid{
+    gap: 80px;
+}
+.founder-section .box{
+    background-color: #F1F5F9;
+    padding: 48px;
+}
+.founder-section .left-side .box h4{
+    color: var(--blue-color);
+}
+.founder-section .box h4{
+font-size: 36px;
+font-weight: 500;
+line-height: 43.2px;
+letter-spacing: -1px;
+text-align: left;
+color: var(--black-color);
+text-transform: capitalize;
+margin-bottom: 16px;
+}
+.founder-section .box p{
+font-size: 21px;
+font-weight: 400;
+line-height: 27.3px;
+text-align: left;
+color: var(--black-color);
+}
+.founder-section .ceo-box{
+    gap: 16px;
+    margin-top: 24px;
+}
+.founder-section .ceo-box p{
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+color: var(--black-color);
+}
+.founder-section .ceo-box span{
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+color: #475569;
+}
+.founder-section .right-side .box:nth-of-type(2){
+margin-top: 40px;
+}
+.faq-section{
+
+}
+.faq-section .accordion{
+    max-width: 782px;
+    margin: 24px auto;
+}
+
+.faq-section h3{
+font-size: 47px;
+font-weight: 600;
+line-height: 56.4px;
+letter-spacing: -1px;
+text-align: center;
+color: var(--blue-color);
+}
+.faq-section .accordion-title{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+ border-top: 1px solid #E2E8F0;
+ padding: 24px 0px;
+ font-size: 21px;
+ font-weight: 400;
+ line-height: 27.3px;
+ text-align: left;
+ text-underline-position: from-font;
+ text-decoration-skip-ink: none;
+}
+.faq-section .accordion-title img{
+    width: 24px;
+    height: 24px;
+
+}
+.faq-section .accordion-content{
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+color: var(--black-color);
+padding: 0px 0px 24px;
+}
+.contact-us-section{
+    margin: 40px 0px;
+}
+.contact-us-section h3{
+font-size: 47px;
+font-weight: 600;
+line-height: 56.4px;
+letter-spacing: -1px;
+text-align: center;
+color: var(--blue-color);
+border-bottom: 1px solid #E4E4E7;
+max-width: 780px;
+margin: 0 auto;
+padding-bottom: 16px;
+}
+.contact-us-section form{
+    max-width: 780px;
+    margin: 24px auto;
+
+}
+.contact-us-section .input-box{
+    gap: 24px;
+}
+.contact-us-section form label{
+display: block;
+font-size: 21px;
+font-weight: 400;
+line-height: 27.3px;
+text-align: left;
+color: var(--black-color);
+text-transform: capitalize;
+margin-bottom: 8px;
+
+}
+.contact-us-section form input{
+display: block;
+width: 100%;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+text-align: left;
+color: #475569;
+padding: 12px 16px;
+border-radius: 8px;
+border: 1px solid #CBD5E1;
+
+}
+.contact-us-section .comment-box{
+    margin-top: 16px;
+}
+.contact-us-section form textarea{
+display: block;
+width: 100%;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+text-align: left;
+color: #475569;
+padding: 12px 16px;
+border-radius: 8px;
+border: 1px solid #CBD5E1;
+}
+footer{
+    box-shadow: 0px -1px 3px 0px #0000001A;
+    padding: 24px 0px;
+
+}
+footer .main-box{
+    gap: 72px;
+}
+footer p{
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+color: var(--black-color);
+margin-top: 16px;
+}
+footer .social-icone ul{
+    gap:16px;
+    margin: 20px 0px;
+}
+footer .social-icone img{
+    width: 24px;
+    height: 24px;
+}
+footer h5 {
+font-size: 21px;
+font-weight: 600;
+line-height: 21px;
+text-align: left;
+color: var(--black-color);
+text-transform: capitalize;
+margin-bottom: 16px;
+}
+footer a{
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+text-align: left;
+color: var(--black-color);
+}
 @media screen and (max-width: 1024px) {
     .hero-section h1 {
         font-size: 60px;
@@ -237,6 +429,54 @@ color: var(--black-color);
         font-size: 50px;
         line-height:58px;
     }
+    .founder-section .grid {
+        gap: 50px;
+    }
+    .founder-section .box {
+        padding: 40px;
+    }
+    .founder-section .box h4 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+    .founder-section .box p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .faq-section h3 {
+        font-size: 32px;
+    }
+    .faq-section .accordion {
+        max-width: 80%;
+        margin: 15px auto;
+    }
+    .faq-section .accordion-title {
+        font-size: 18px;
+        padding: 15px 0px;
+    }
+    .faq-section .accordion-content{
+        font-size: 15px;
+    }
+    .contact-us-section {
+        margin: 20px 0px;
+    }
+    .contact-us-section form {
+        max-width: 80%;
+        margin: 24px auto;
+    }
+    .contact-us-section h3 {
+        font-size: 32px;
+        max-width: 80%;
+    }
+    .contact-us-section form label{
+        font-size: 18px;
+
+    }
+    .contact-us-section form input {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
   }
 
 @media screen and (max-width: 768px) {
@@ -258,7 +498,15 @@ color: var(--black-color);
         margin: 30px 0px;
         padding: 25px 0px;
     }
-
+    .founder-section .grid {
+        gap: 30px;
+    }
+    .faq-section .accordion {
+        max-width: 575px;
+    }
+    footer .main-box {
+        gap: 30px;
+    }
 }
 @media screen and (max-width: 576px) {
     header .join-waitlist-btn {
@@ -310,6 +558,24 @@ color: var(--black-color);
     }
     .container {
         width: 90%;
+    }
+    .faq-section h3 {
+        font-size: 25px;
+    }
+    .faq-section .accordion {
+        max-width: 100%;
+    }
+    .faq-section .accordion-title{
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    .faq-section .accordion-content {
+        font-size: 12px;
+        padding: 0px 0px 10px;
+    }
+    .faq-section .accordion-title img {
+        width: 18px;
+        height: 18px;
     }
 }    
 @media screen and (max-width: 480px) {
